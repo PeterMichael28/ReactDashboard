@@ -1,0 +1,166 @@
+.app.dark{
+    transition: .5s ease all;
+    background: #222;
+    color: rgb(186, 185, 185);
+
+    .chartGrid{
+        stroke: rgba(228, 228, 228, 0.388);
+    }
+
+    .table{
+        background: #222;
+        border-color:rgb(108, 105, 105);
+
+        .tableCell{
+            color: rgb(188, 182, 182);
+            border-color:rgb(119, 114, 114);
+        }
+    }
+
+    .navbar{
+
+        color: rgb(188, 182, 182);
+        border-color:   rgb(82, 80, 80);
+
+        .wrapper{
+
+            .left{
+                border-color: gray;
+
+                input{
+                    color: rgb(188, 182, 182);
+
+                    &::placeholder{
+                        color: rgb(188, 182, 182);
+                    }
+                }
+            }
+        }
+
+    }
+
+.sidebar{
+    background: #222;
+    color: rgb(186, 185, 185);
+    border-color:  rgb(82, 80, 80);
+
+    
+    .logo{
+        color: #a8a4a4;
+
+    }
+    hr{
+   
+        border: 0.5px solid rgb(63, 62, 62) ;
+    }
+
+    ul{
+        li{
+            &:hover{
+                background: #333;
+            }
+
+            .icons{
+                color: #999;
+            }
+        }
+    }
+}
+
+
+.datatable {
+
+    .css-1e2bxag-MuiDataGrid-root .MuiDataGrid-cell {
+        border-bottom: 1px solid rgb(162, 154, 154);
+    }
+    
+    .datatableTitle{
+  
+        color: rgb(182, 181, 181);
+    
+        .link{
+          text-decoration: none;
+          color: rgb(182, 181, 181);
+          border: 1px solid rgb(157, 154, 154);
+        }
+      }
+
+    .css-rtrcn9-MuiTablePagination-root {
+        color: rgb(186, 185, 185);
+    }
+
+    .css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root{
+        color: rgba(239, 232, 232, 0.638);
+    }
+    .datagrid {
+    color: rgb(186, 185, 185);
+      border: none;
+
+      
+
+      .cellWithStatus {
+    
+        &.active {
+          background-color: rgba(8, 235, 8, 0.353);
+          color: rgba(196, 207, 196, 0.994);
+        }
+        &.pending {
+          background-color: rgba(255, 217, 0, 0.411);
+          color: rgb(213, 203, 180);
+        }
+        &.passive {
+          background-color: rgba(255, 0, 0, 0.304);
+          color: rgb(215, 169, 178);
+        }
+      }
+    
+      .cellAction {
+    
+        .viewButton {
+          color: rgb(212, 212, 231);
+          border: 1px dotted rgb(212, 212, 231);
+        
+        }
+        
+        .deleteButton {
+          color: rgb(225, 215, 217);
+          border: 1px dotted rgba(241, 9, 55, 0.953);
+       
+        }
+      }
+    }
+  }
+
+  .new{
+    .newContainer{
+        .top, .bottom{
+            .right{
+                form{
+                    .formInput{
+                        label{
+                            color: rgb(218, 210, 210);
+                            span{
+                                color: rgb(177, 171, 171)
+                            }
+                        }
+
+                        input{
+                            border-bottom: 1px solid rgb(210, 206, 206);
+                            background-color: transparent;
+
+                            &::placeholder{
+                                color: rgb(165, 158, 158);
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+  
+}
+
+
